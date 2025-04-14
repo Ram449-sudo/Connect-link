@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Zodiac Signs</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color:#a3c2c2;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color:#ddccff ;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #c2c2d6;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:#1a0033  ;
+  height: 300px;
+}
+
+
+}
+
+/* Style the footer */
+footer {
+  background-color:#1a0033 ;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Capricorn</h2>
+<p>In astrology, Capricorn is the tenth sign of the zodiac, represented by the Sea-Goat, a mythical creature with the body of a goat and the tail of a fish. It symbolizes ambition, discipline, and perseverance. Ruled by Saturn, Capricorns are known for their hardworking nature, strong sense of responsibility, and long-term planning. The Capricorn period spans from approximately December 22 to January 19. </p>
+<p>Mythological Origins:
+Capricorn's mythology traces back to the Sumerian god Enki, a wise and water-associated deity depicted as a goat-fish hybrid. In Greek mythology, it is linked to Pan, who transformed into a half-goat, half-fish to escape the monster Typhon, symbolizing adaptability and resilience. </p>
+
+<header>
+  <h2>Capricorn</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+     <li><a href="#">Pisces</a></li>
+      <li><a href="#">Libra</a></li>
+      <li><a href="#">Capricorn</a></li>
+      <li><a href="#">Aries</a></li>
+      <li><a href="#">Taurus</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+   <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-out;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://glorian.org/images/stories/astrology/Capricorn.jpg">
+  </article>
+</section>
+
+</body>
+</html>
