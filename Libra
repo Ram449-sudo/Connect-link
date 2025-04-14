@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Zodiac Signs</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+        background-color: #996600;
+        background-image: url('https://images.steamusercontent.com/ugc/1674743029859866757/93596D3CADBEF60D47C41A1DE5EA3ADDA17970AD/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+        color: Gold;
+        font-size: 22px;
+
+p{
+   background-color: Black;
+   border-style:double;
+   border-width: 5px;
+   border-color: Gold;
+   border-radius: 10px;
+   padding: 5px;
+
+ }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: Black;
+  border-style:inset;
+  border-width: 5px;
+  border-color: Gold;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  font-size: 50px;
+  color: Gold;
+
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: Black;
+  padding: 20px;
+  border-style:inset;
+  border-width: 5px;
+  border-color: Gold;
+  border-radius: 10px;
+  padding: 5px;
+  
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: transparent;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+
+}
+
+/* Style the footer */
+footer {
+  background-color: Transparent;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<p>Libra is an air sign ruled by Venus, symbolizing balance, justice, and harmony. Its symbol, the Scales, represents fairness and equilibrium. Libra individuals are known for their charm, diplomacy, and strong sense of fairness. They seek harmony in relationships and are natural peacemakers. Ruled by Venus, they have a love for beauty, art, and romance.</p>
+<p>Mythological Origins:
+Libra is linked to Themis, the Greek goddess of divine law and justice, and her daughter Astraea, the goddess of innocence. In mythology, Astraea left Earth due to human corruption, and her scales became the constellation Libra. It’s also connected to the scales of Dike, another goddess of justice.</p>
+
+<header>
+  <h2>Libra</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="file:///D:/Grade-10/page1.html">Home</a></li>
+      <li><a href="#">Aries</a></li>
+      <li><a href="#">Capricorn</a></li>
+      <li><a href="#">Libra</a></li>
+      <li><a href="#">Taurus</a></li>
+      <li><a href="#">Pisces</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+   <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-out;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://www.mya-bay.com/media/blog/ASTRO/POST_BLOG_300x421_72DDPI_ASTRO_EN_Plan_de_travail_1_copie_7.jpg" width="575" height="780">
+   </article>
+</section>
+
+</body>
+</html>
